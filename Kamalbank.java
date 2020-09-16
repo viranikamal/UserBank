@@ -49,7 +49,7 @@ public class Kamalbank {
               Class.forName("com.mysql.cj.jdbc.Driver");
               String URL = "jdbc:mysql://localhost:3308/bank";
               String USER = "root";
-              String PASS = "Lalo@123"; 
+              String PASS = "root"; 
               conn = DriverManager.getConnection(URL,USER,PASS);
               
               stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
@@ -193,7 +193,7 @@ public class Kamalbank {
               Class.forName("com.mysql.cj.jdbc.Driver");
               String URL = "jdbc:mysql://localhost:3308/bank";
               String USER = "root";
-              String PASS = "Lalo@123"; 
+              String PASS = "root"; 
               conn = DriverManager.getConnection(URL,USER,PASS);
               
               stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
